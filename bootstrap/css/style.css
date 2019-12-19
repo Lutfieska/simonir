@@ -1,0 +1,63 @@
+#headerfull{
+	width: 95%;
+	height: 450px;
+	border: 2px solid black;
+	margin: 0 auto;
+	position: relative;
+}
+
+#headerfull>img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#headerfull>.btn{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 25px;
+	top: 200px;
+	background: black;
+	color: white;
+	font-size: 20px;
+}
+
+#headerfull>#btn1:hover{
+	box-shadow: 10px 0px 20px 0px black;
+}
+
+#headerfull>#btn2:hover{
+	box-shadow: -10px 0px 20px 0px black;
+}
+
+#headerfull>#btn2{
+	position: relative;
+	float: right;
+}
+
+.feedback {
+  background-color : #31B0D5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #46b8da;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+}
+.navbar-inverse{
+    background-color: #008B8B;
+    color: black;
+    font-color: white;
+ }
+
+ .navbar-nav{
+ 	font-size: 16px;
+ 	color: white;
+ 	font-color: #000000;
+ }
